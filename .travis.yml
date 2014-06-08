@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  app:
+    master: omundu-refinery-staging
+  api_key:
+    secure: VAC8S0zh7xUgDTQJ/7MVx27d57nM3OOSVkrGnftZQzji/EDFRmzUgprEqYZFnDF8NMBgI3p5CFM0KeS3FiXx/1BmM8HV11onoXAzePJI8w0pKl0h1N9q5kOpdey/aUl1fAGJ5l85cg3gC7tvbvF456zTEj1nIGy/teere0o/lb4=
+script: bundle exec rspec spec
